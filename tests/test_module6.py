@@ -28,7 +28,6 @@ class Module6Tests(unittest.TestCase):
         test_arr = [1, 2, 3, 4, 5, 6]
         expected_arr = [2, 4, 6]
         output_arr = only_even_numbers(test_arr)
-
         self.assertListEqual(expected_arr, output_arr)
 
     def test_only_even_numbers_average(self):
