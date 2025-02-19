@@ -35,6 +35,7 @@ class Module6Tests(unittest.TestCase):
         test_arr = [20, 40, 41, 100, 1001]
         expected_arr = [20,40, 100]
         output_arr = only_even_numbers(test_arr)
+
         self.assertListEqual(expected_arr, output_arr)
 
     def test_only_even_numbers_worst(self):
